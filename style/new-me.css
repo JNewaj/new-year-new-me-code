@@ -57,3 +57,38 @@ header{
   color:white;
   cursor:pointer;
 }
+.failure-section{
+  padding:130px 322px 131px 206px;
+}
+.failure-container{
+  display:flex;
+  gap:87px;
+  margin:0 auto;
+  align-items:center;
+}
+.failure-container h2{
+  max-width:288px;
+  font-size:40px;
+  font-weight:bold;
+  font-color:#151414;
+}
+.failure-content{
+  max-width:416px;
+}
+.failure-container p{
+  max-width: 416px;
+  font-size:16px;
+  line-height: 26px;
+  font-color:#444343;
+  margin-bottom:16px;
+}
+.failure-list{
+  max-width:349px;
+  list-style: none;
+}
+.failure-list li::before{
+  content:"✔";
+  color:#16d887;
+  margin-right:10px;
+}
+

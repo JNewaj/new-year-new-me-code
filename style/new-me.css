@@ -1,4 +1,59 @@
-#banner{
-    
-    display:flex;
+.font-work-sans {
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+header{
+  background-image: url(../images/banner/banner1.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#banner1 {
+  height: 100%;
+  display: flex;
+  justify-content:flex-end;
+  align-items:center;
+  
+}
+
+#banner1 .banner-content .banner-heading{
+  
+  font-size: 65px;
+  font-weight:bold;
+  color:#151414;
+  margin-bottom: 24px;
+  text-align:right;
+  
+  
+}
+
+#banner1 .banner-content {
+  margin: 216px 230px 364px 845px;
+  text-align:right;
+  
+  
+  
+}
+#banner1 .banner-content .banner-text{
+  font-size:16px;
+  line-height:26px;
+  text-align:right;
+  max-width:484px;
+  margin-left:auto;
+  margin-bottom: 32px;
+}
+.btn{
+  background-color: #FD6E0A;
+  border-radius: 5px;
+  padding:21px 26px;
+  border:none;
+  font-size:20px;
+  font-weight:bold;
+  color:white;
+  cursor:pointer;
 }
